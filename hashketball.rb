@@ -94,7 +94,7 @@ def big_shoe_rebounds
   #get number of rebounds for the player
   players_list = []
   game_hash.each do |location,team|
-    if team = :players
+    if team == :players
       team.each do |players|
         players_list << players.delete_if { |k,v| k == :number || k == :points || k == :assists || k ==:steals || k == :blocks || k == :slam_dunks}
       end
