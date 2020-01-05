@@ -97,6 +97,7 @@ def big_shoe_rebounds
     if team == :players
       team.each do |players|
         players_list << players.delete_if { |k,v| k == :number || k == :points || k == :assists || k ==:steals || k == :blocks || k == :slam_dunks}
+        binding.pry
       end
 
     end
