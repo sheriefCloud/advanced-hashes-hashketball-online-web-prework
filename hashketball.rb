@@ -87,3 +87,21 @@ def player_stats(player_name)
   end
   new_hash
 end
+
+def big_shoe_rebounds
+  #find the player with the biggest shoe
+    #compare all players to find the player with the biggest shoe
+  #get number of rebounds for the player
+  players_list = []
+  game_hash.each do |location,team|
+    if team = :players
+      team.each do |players|
+        binding.pry
+      end
+    end
+
+
+  end
+
+
+end
